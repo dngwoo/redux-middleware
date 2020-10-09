@@ -14,7 +14,6 @@ function CounterContainer(){
         dispatch(decrease())
     }
     
-
     return (
         <Counter number={number} onIncrease={onIncrease} onDecrease={onDecrease} />
     )
